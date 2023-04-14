@@ -31,6 +31,27 @@
 /**
  * Allows users to opt-out of animations via OS-level preferences.
  */
+
+
+.xxcontainer {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+
+
+h28 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 5rem;
+    animation: animate 0.5s linear infinite;
+}
+
+
 .nux-dot-tip::before, .nux-dot-tip::after {
   border-radius: 100%;
   content: " ";
